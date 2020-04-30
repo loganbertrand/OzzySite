@@ -1,0 +1,18 @@
+.landing-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-pic{
+    width: 500px;
+    height: auto;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.form-container{
+    width: 60%;
+}

@@ -1,16 +1,74 @@
-.landing-container{
-    display: flex;
-    justify-content: space-evenly;
+html{
+    scroll-behavior: smooth;
 }
+
+
+.landing-page{
+    background-image: url(../images/seattle-skyline.jpg);
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.landing-text{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10vh;
+}
+.landing-btn {
+	background-color: transparent !important;
+	border: 2px solid white;
+	border-radius: 0px;
+	width: 150px;
+    font-size: 17px;
+}
+
+.landing-btn:hover {
+	border: 2px solid white;
+	background-color: white !important;
+	border-radius: 0px;
+	color: black;
+}
+
+.contact-btn {
+	background-color: transparent !important;
+    border: 2px solid black;
+    color: black;
+	border-radius: 0px;
+	width: 150px;
+	font-size: 17px;
+}
+
+.contact-btn:hover {
+	border: 2px solid black;
+	background-color: black !important;
+	border-radius: 0px;
+	color: white;
+}
+
+
 .profile-pic{
     width: 500px;
+    height: auto;
+}
+.profile-pic2{
+    width: 150px;
     height: auto;
 }
 
 .contact-section{
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    align-items: center;
+    margin-bottom: 10vh;
+    height: 60vh;
+}
+
+.contact-title{
+    text-align: center;
 }
 
 .form-container{

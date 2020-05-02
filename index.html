@@ -12,6 +12,8 @@
   <script src="https://kit.fontawesome.com/9d235c6ec7.js"></script>
   <!--Scroll Reveal-->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <!--Feather Icons-->
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
@@ -28,43 +30,80 @@
 <a id="contact"></a>
     <div class="container">
       <h2 class="display-5 contact-title">Any Questions?</h2>
-    <div class="contact-section">
-      <div class="form-container ">
-        <form>
-          <div class="row">
-            <div class="col">
-              <label for="firstName">First Name</label>
-              <input type="text" class="form-control form-control-lg" id="firstName">
-            </div>
-            <div class="col">
-              <label for="lastName">Last Name</label>
-              <input type="text" class="form-control form-control-lg" id="lastName">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <label for="phoneNumber">Phone Number</label>
-              <input type="text" class="form-control form-control-lg" id="phoneNumber">
-            </div>
-            <div class="col">
-              <label for="email">Email Address</label>
-              <input type="text" class="form-control form-control-lg" id="email">
-            </div>
-          </div>
-          <button class="btn btn-primary contact-btn">Submit</button>
-        </form>
-      </div>
 
-      <div class="social-container ">
-        <img class="profile-pic2" src="assets/images/john-stamos.jpg.jpg" alt="picture of Ozzy Servais"/>
-        <h1>TEST</h1>
+      <div class="contact-section">
+
+        <div class="form-container "> <!--Ozzy Email ozzy@scruppsestates.com -->
+          <form action="https://formsubmit.co/loghandi@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+              <div class="col">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control form-control-lg" id="firstName" name="firstName">
+              </div>
+              <div class="col">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control form-control-lg" id="lastName" name="lastName">
+              </div>
+            </div>
+            <div class="row bottom-form-row">
+              <div class="col">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" class="form-control form-control-lg" id="phoneNumber"name="phoneNumber">
+              </div>
+              <div class="col">
+                <label for="email">Email Address</label>
+                <input type="text" class="form-control form-control-lg" id="email"name="email">
+              </div>
+            </div>
+            <div class="row bottom-form-row">
+              <div class="col">
+                <label for="message">Message</label>
+                <textarea type="text" class="form-control form-control-lg" rows="3" id="message"name="message"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-primary contact-btn">Submit</button>
+          </form>
+        </div>
+
+        <div class="social-container ">
+          <img class="profile-pic2" src="assets/images/john-stamos.jpg.jpg" alt="picture of Ozzy Servais"/>
+
+          <h1>John Stamos</h1>
+
+          <div class="contact-buttons">
+            <div class="row">
+              <a href="#">
+                <div class="circle"><i class="fas fa-mobile-alt contact-icon"></i></div>
+              </a>
+              <p class="about-txt">Phone Number Here</p>
+            </div>
+            <div class="row">
+              <a href="mailto:test@test.com" target="_blank">
+                <div class="circle"><i class="fas fa-envelope contact-icon"></i></div>
+              </a>
+              <p class="about-txt">Email</p>
+            </div>
+            <div class="row">
+              <a href="https://www.instagram.com/ozzyservais/" target="_blank">
+                <div class="circle"><i class="fab fa-instagram contact-icon"></i></div>
+              </a>
+              <p class="about-txt">Instagram</p>
+            </div>
+            <div class="row">
+              <a href="https://www.facebook.com/ozzy.servais" target="_blank">
+                <div class="circle"><i class="fab fa-facebook contact-icon"></i></div>
+              </a>
+              <p class="about-txt">Facebook</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
-  </h1>
 
     
 
 
-
+  <script>
+    feather.replace()
+  </script>
 </body>

@@ -1,8 +1,35 @@
 html{
     scroll-behavior: smooth;
 }
+/*
+body{
+    margin-bottom: 60px;
+    overflow-x: hidden;
+    
+}
 
+.nav-link{
+    color: white;
+}
+nav{
+    background-color: #22313F;
+    z-index: 1000;
+}
+.navbar-toggler-icon{
+    color: white;
+    padding-top: 6px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+.sticky + .content {
+    padding-top: 60px;
+}
+*/
 
+/*LANDING SECTION*/
 .landing-page{
     background-image: url(../images/seattle-skyline.jpg);
     background-size: cover; 
@@ -32,6 +59,68 @@ html{
 	color: black;
 }
 
+
+/*WHAT WE DO SECTION*/
+.what-we-do{
+    background-color: black;
+    color: white;
+}
+
+
+/*WHO WE ARE SECTION*/
+.about-section{
+   height: 100%;
+}
+#about-hdr{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.about-icon-row{
+    justify-content: space-between;
+    text-align: center;
+}
+.about-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-txt{
+    color: black;
+    text-align: center;
+}
+.about-button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.about-button{
+    background-color: transparent !important;
+    border: 2px solid black;
+    color: black;
+	border-radius: 0px;
+    font-size: 17px;
+    margin-top: 3vh;
+}
+.about-button:hover {
+	border: 2px solid black;
+	background-color: black !important;
+	border-radius: 0px;
+	color: white;
+}
+
+/*CONTACT SECTION*/
+
 .bottom-form-row{
     margin-top: 3vh;
 }
@@ -52,14 +141,17 @@ html{
 	border-radius: 0px;
 	color: white;
 }
-
+.button-txt{
+    text-align: center;
+    margin-left: 1vw;
+}
 
 .profile-pic{
     width: 500px;
     height: auto;
 }
 .profile-pic2{
-    width: 150px;
+    width: 265px;
     height: auto;
 }
 
@@ -90,9 +182,9 @@ html{
     align-items: center;
 }
 
-.contact-buttons{
-    justify-content: space-between;
-    text-align: center;
+.contact-button-section{
+    display: flex;
+    justify-content: center;
 }
 .contact-section{
     display: flex;
@@ -104,10 +196,6 @@ html{
 
 .contact-title{
     text-align: center;
-}
-
-.about-txt{
-    margin-left: 1vw;
 }
 
 .form-container{

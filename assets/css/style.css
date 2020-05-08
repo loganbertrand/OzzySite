@@ -76,7 +76,7 @@ nav{
     margin-bottom: 35px;
 }
 .about-icon-row{
-    justify-content: space-between;
+    
     text-align: center;
 }
 .about-icon{
@@ -151,7 +151,7 @@ nav{
     height: auto;
 }
 .profile-pic2{
-    width: 265px;
+    width: 245px;
     height: auto;
 }
 
@@ -199,10 +199,21 @@ nav{
 }
 
 .form-container{
-    width: 60%;
+    width: 100%;
 }
 
 .social-container{
     justify-content: center;
     text-align: center;
+}
+
+@media screen and (max-width:641px){
+    .about-icon{
+        height: 100px;
+        width: 100px;
+       
+    }
+    .contact-btn{
+        margin-bottom: 25px;
+    }
 }

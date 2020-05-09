@@ -1,13 +1,13 @@
 html{
     scroll-behavior: smooth;
 }
-/*
+
 body{
     margin-bottom: 60px;
     overflow-x: hidden;
     
 }
-
+/*
 .nav-link{
     color: white;
 }
@@ -60,10 +60,25 @@ nav{
 }
 
 
-/*WHAT WE DO SECTION*/
-.what-we-do{
+/*WHO WE WORK WITH SECTION*/
+.work-with-section{
     background-color: black;
     color: white;
+}
+.logo-container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keller-logo{
+    height: auto;
+    width: 220px;
+}
+.scrupps-logo{
+    height: auto;
+    width: 250px;
+    
 }
 
 
@@ -71,7 +86,7 @@ nav{
 .about-section{
    height: 100%;
 }
-#about-hdr{
+.header-text{
     text-align: center;
     margin-bottom: 35px;
 }
@@ -94,6 +109,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fas, .fab{
+    color: red;
 }
 .about-txt{
     color: black;
@@ -215,5 +233,9 @@ nav{
     }
     .contact-btn{
         margin-bottom: 25px;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
     }
 }

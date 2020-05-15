@@ -40,9 +40,6 @@ nav{
     display: flex;
     align-items: center;
     text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     margin-bottom: 0;
 }
 .landing-text{
@@ -64,7 +61,9 @@ nav{
 	border-radius: 0px;
 	color: black;
 }
-
+.jumbotron{
+    border-radius: 0%;
+}
 /*-----------------------------------------------------WHAT WE DO WITH SECTION--------------------------------------------------------------*/
 .what-we-do-section{
     background-color: black;
@@ -83,6 +82,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1% 0
 }
 .keller-logo{
     height: auto;
@@ -115,8 +115,8 @@ nav{
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
-    color: black;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid white;
     font-size: 16px;
     font-weight: 700;
     margin: 0 auto ;
@@ -128,7 +128,7 @@ nav{
     color: red;
 }
 .about-txt{
-    color: black;
+    color: white;
     text-align: center;
 }
 .about-button-container{

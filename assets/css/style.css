@@ -8,6 +8,10 @@ body{
 a:hover{
     text-decoration: none;
 }
+
+input {
+    border-radius: 0%;
+  }
 /*--------------------------------------------NAVIGATION SECTION ---------------------------------------------------------*/
 
 .nav-link{

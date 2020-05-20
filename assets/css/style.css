@@ -18,8 +18,9 @@ input {
     color: white;
 }
 nav{
-    background-color: #22313F;
+    background-color: black;
     z-index: 1000;
+    text-shadow: 1px 1px 2px black;
 }
 .navbar-toggler-icon{
     color: white;
@@ -136,12 +137,7 @@ nav{
 .fas, .fab{
     color: red;
 }
-.about-icon:hover, .fas:hover{
-    color: white;
-}
-.fas:hover{
-    color: white;
-}
+
 .about-txt{
     color: white;
     text-align: center;

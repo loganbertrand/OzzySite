@@ -205,6 +205,7 @@ nav{
     justify-content: center;
     margin-bottom: 8vh;
 }
+
 .support-row{
     display: flex;
     justify-content: center;
@@ -290,7 +291,7 @@ nav{
     height: auto;
 }
 .profile-pic2{
-    width: 145px;
+    width: 100%;
     height: auto;
 }
 
@@ -371,7 +372,16 @@ nav{
         display: flex;
         justify-content: center;
     }
-   
+   .profile-pic2{
+       width: 90%;
+   }
+   .who-we-are-txt{
+       text-align: center;
+   }
+   .ozzy-pic-container{
+    display: flex;
+    justify-content: center;
+}
 }
 @media screen and (max-width:850px){
     .line-break{

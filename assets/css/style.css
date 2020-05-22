@@ -374,6 +374,7 @@ nav{
     }
    .profile-pic2{
        width: 90%;
+       height: auto;
    }
    .who-we-are-txt{
        text-align: center;
@@ -382,19 +383,19 @@ nav{
     display: flex;
     justify-content: center;
     margin-bottom: 2vh;
-}
-.keller-logo{
-    height: auto;
-    width: 100%;
-}
-.scrupps-logo{
-    height: auto;
-    width: 100%;
-    
-}
-.contact-button-section{
-    margin-bottom: 2vh;
-}
+    }
+    .keller-logo{
+        height: auto;
+        width: 100%;
+    }
+    .scrupps-logo{
+        height: auto;
+        width: 100%;
+        
+    }
+    .contact-button-section{
+        margin-bottom: 2vh;
+    }
 }
 @media screen and (max-width:850px){
     .line-break{

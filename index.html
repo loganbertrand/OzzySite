@@ -17,6 +17,25 @@
 </head>
 
 <body>
+
+  <div id="mySidenav" class="sidenav">
+    <a class="ozzy-brand" href="#home">
+      <img src="./assets/images/oz-logo.PNG" class="ozzy-logo" alt="Ozzy Logo">
+    </a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#home" onclick="closeNav()">Home</a>
+    <a href="#what-we-do" onclick="closeNav()">What We Do</a>
+    <a href="#who-we-are" onclick="closeNav()">Who We Are</a>
+    <a href="#who-we-work-with" onclick="closeNav()">Who We Work With</a>
+    <a href="#contact" onclick="closeNav()">Contact</a>
+  </div>
+
+
+
+
+ <span id="main">
+  <span class="navi-button-contain"><div class="customButton" onclick="openNav()"><i class="fas fa-bars"></i></div></span>
+  
   <!--JUMBOTRON LANDING SECTION-->
   <a id="home"></a>
   <div class="jumbotron landing-page">
@@ -25,39 +44,6 @@
       <a href="#contact"><button class="btn btn-dark landing-btn">Get In Touch</button></a>
     </div>
   </div>
-
-  <!--Navigation Bar-->
-
-    <nav class="navbar shadow navbar-expand-*" id="navbar">
-
-      <a class="navbar-brand" href="#home">
-        <img src="./assets/images/oz-logo.PNG" class="ozzy-logo" alt="Ozzy Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#what-we-do">What We Do</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#who-we-are">Who We Are</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#who-we-work-with">Who We Work With</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#contact">Let's Connect</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  
 <!--What We Do Section-->
   <a id="what-we-do"></a>
   <section class="what-we-do-section">
@@ -104,15 +90,37 @@
       <div class="row">
         <h1  class="display-4 col-sm-12 col-md-12 header-text">Who We Are</h1>
       </div>
-      <div class="row">
-        <p  class="col-sm-12 col-md-12 header-text">Hi there! I'm Ozzy, and I'm here to simplify your home buying experience. My Team and I are here to remove the doubt that stands <br class="line-break"/> in the way of you owning the home you deserve.</p>
+      <div class="row ozzy-row">
+        <img class="profile-pic2 col-12 col-md-3" src="assets/images/ozzy-pic.jpg" alt="picture of Ozzy Servais" />
+        <div class="col-sm-12 col-md-7 who-we-are-txt">
+          <p>Hi there! I'm Ozzy, and I'm here to simplify your real estate experience. Let's get connected so no matter when you plan to buy, sell, or invest in real estate, you're prepared.</p>
+        </div>
       </div>
-      <div class="about-button-container">
-        <a href="./about.html"><button class="btn btn-primary about-button">About The Team</button></a>
+      <div class="row support-row">
+        <div class="col-12 col-sm-6">
+          <div class="row supporting-row">
+            <div class="col-12 col-sm-2">
+              <img src="https://via.placeholder.com/150" alt="Picture of Logan">
+            </div>
+            <div class="col-12 col-sm-7">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="row supporting-row">
+            <div class="col-12 col-sm-2">
+              <img src="https://via.placeholder.com/150" alt="Picture of Kyle">
+            </div>
+            <div class="col-12 col-sm-7">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
+  
   <!--Who We Work With Section-->
 
   <a id="who-we-work-with"></a>
@@ -191,7 +199,7 @@
       </div>
 
       <div class="social-container col-sm-12 col-md-4">
-        <img class="profile-pic2" src="assets/images/ozzy-pic.jpg" alt="picture of Ozzy Servais" />
+        <img src="./assets/images/oz-logo.PNG" class="ozzy-logo2" alt="Ozzy Logo">
 
         <h1>Ozzy Servais</h1>
         <div class="contact-button-section">
@@ -245,6 +253,7 @@
       </div>
     </div>
   </div>
+</span>
   <!--Javascript Links-->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

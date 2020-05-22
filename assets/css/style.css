@@ -382,6 +382,15 @@ nav{
     display: flex;
     justify-content: center;
 }
+.keller-logo{
+    height: auto;
+    width: 100%;
+}
+.scrupps-logo{
+    height: auto;
+    width: 100%;
+    
+}
 }
 @media screen and (max-width:850px){
     .line-break{

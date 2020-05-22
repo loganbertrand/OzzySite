@@ -374,7 +374,7 @@ nav{
     }
    .profile-pic2{
        width: 280px;
-       height: auto;
+       max-height: 200px;
    }
    .who-we-are-txt{
        text-align: center;

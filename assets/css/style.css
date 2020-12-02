@@ -180,8 +180,8 @@ nav{
 
 /*-----------------------------------------------------WHO WE WORK WITH SECTION--------------------------------------------------------------*/
 .work-with-section{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding-top: 5vh;
     padding-bottom: 10vh;
 }
@@ -230,7 +230,7 @@ nav{
 }
 .header-text{
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 .about-icon-row{
     
@@ -258,6 +258,7 @@ nav{
 .about-txt{
     color: black; 
     text-align: center;
+    margin-top: 5%;
 }
 
 
@@ -298,8 +299,8 @@ nav{
     height: auto;
 }
 .profile-pic2{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 450px;
 }
 
 .circle {
@@ -411,7 +412,7 @@ nav{
         justify-content: center;
     }
    .profile-pic2{
-       width: 280px;
+       width: auto;
        max-height: 200px;
    }
    .who-we-are-txt{

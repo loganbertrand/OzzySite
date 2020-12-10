@@ -170,7 +170,7 @@ nav{
 .jumbotron{
     border-radius: 0%;
 }
-/*-----------------------------------------------------WHAT WE DO WITH SECTION--------------------------------------------------------------*/
+/*-----------------------------------------------------WHAT WE DO SECTION--------------------------------------------------------------*/
 .what-we-do-section{
     background-color: white;
     color: black;
@@ -178,7 +178,7 @@ nav{
     padding-bottom: 10vh;
 }
 
-/*-----------------------------------------------------WHO WE WORK WITH SECTION--------------------------------------------------------------*/
+/*-----------------------------------------------------WHERE TO FIND US SECTION--------------------------------------------------------------*/
 .work-with-section{
     background-color: white;
     color: black;
@@ -201,12 +201,27 @@ nav{
     width: 250px;
     
 }
+.social-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 3px black;
+}
 
 
 /*-------------------------------------------------------------WHO WE ARE SECTION--------------------------------------------------------------------*/
 .about-section{
-   height: 100%;
-   padding-top: 5vh;
+    height: 100%;
+    padding-top: 5vh;
 }
 .ozzy-row{
     display: flex;
@@ -336,7 +351,7 @@ nav{
 }
 .contact-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10vh;
     height: 60vh;
@@ -402,7 +417,10 @@ nav{
     .about-icon{
         height: 100px;
         width: 100px;
-       
+    }
+    .social-icon{
+        height: 100px;
+        width: 100px;
     }
     .contact-btn{
         margin-bottom: 25px;

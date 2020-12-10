@@ -201,6 +201,10 @@ nav{
     width: 250px;
     
 }
+.fa-envelope, .fa-mobile-alt, .fa-instagram, .fa-facebook, .fa-linkedin, .fa-youtube, .fa-spotify, .fa-tiktok{
+    font-size: 50px;
+}
+
 .social-icon{
     width: 150px;
     height: 150px;
@@ -414,13 +418,17 @@ nav{
 }
 
 @media screen and (max-width:641px){
+    .fa-envelope, .fa-mobile-alt, .fa-instagram, .fa-facebook, .fa-linkedin, .fa-youtube, .fa-spotify, .fa-tiktok{
+        font-size: 25px;
+    }
+
     .about-icon{
-        height: 100px;
-        width: 100px;
+        height: 40px;
+        width: 40px;
     }
     .social-icon{
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
     }
     .contact-btn{
         margin-bottom: 25px;

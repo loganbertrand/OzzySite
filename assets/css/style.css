@@ -309,7 +309,10 @@ nav{
 	border-radius: 0px;
 	width: 150px;
     font-size: 17px;
-    margin-top: 3vh;
+    margin-top: 2vh;
+}
+.h-captcha{
+    margin-top: 2vh;
 }
 
 .contact-btn:hover {
@@ -430,6 +433,9 @@ nav{
 @media screen and (max-width:641px){
     .fa-envelope, .fa-mobile-alt, .fa-instagram, .fa-facebook, .fa-linkedin, .fa-youtube, .fa-spotify, .fa-tiktok{
         font-size: 25px;
+    }
+    .h-captcha{
+        text-align: center;
     }
     .what-we-do-section{
         background-image: linear-gradient(178deg, #617988 90%, white calc(90% + 2px));
